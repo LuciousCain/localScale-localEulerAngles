@@ -1,0 +1,12 @@
+Severity Code Description Project File Line Suppression State Error CS1061 'object' does not contain a definition for 'localScale' and no accessible extension method 'localScale' accepting a first argument of type 'object' could be found (are you missing a using directive or an assembly reference?) Assembly-CSharp
+
+Severity Code Description Project File Line Suppression State Error CS1061 'object' does not contain a definition for 'localEulerAngles' and no accessible extension method 'localEulerAngles' accepting a first argument of type 'object' could be found (are you missing a using directive or an assembly reference?) Assembly-CSharp
+
+the lined code... ........................
+
+background.rectTransform.localScale = new Vector3(1f, scaleY, 1f);
+
+background.rectTransform.localEulerAngles = new Vector3(0, 0, orient);
+
+
+what do i do..i just can't figure it out.. please help..
